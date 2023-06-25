@@ -1,0 +1,16 @@
+[package]
+name = "strconv"
+version = "0.1.0"
+edition = "2021"
+author = ["bend-n <bend.n@outlook.com>"]
+description = "basic string conversions"
+repository = "https://github.com/bend-n/strconv.git"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "2.0.15"
